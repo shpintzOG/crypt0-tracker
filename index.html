@@ -16,27 +16,43 @@
 
       <li class="player-card-item">
         <!-- Day: 1 -->
+        <p>Day: <span>1</span></p>
+        <p>Hourly DRM: <span>0.06527</span></p>
+        <p>Total Earned DRM: <span>5.77715</span></p>
+        <p>Total Earned: <span>30.24</span></p>
       </li>
 
       <li class="player-card-item">
         <!-- Day: 2 -->
+        <p>Day: <span>2</span></p>
+        <p>Hourly DRM: <span>0.06527</span></p>
+        <p>Total Earned DRM: <span>5.77715</span></p>
+        <p>Total Earned: <span>60.24</span></p>
       </li>
 
       <li class="player-card-item">
         <!-- Day: 3 -->
+        <p>Day: <span>3</span></p>
+        <p>Hourly DRM: <span>0.06527</span></p>
+        <p>Total Earned DRM: <span>5.77715</span></p>
+        <p>Total Earned: <span>90.24</span></p>
       </li>
 
     </ul>
 
     <!-- Form to submit day / update day -->
-    <div>
+    <section class="recap-update-station">
 
-      <h2>Remember: </h2>
-      <h3>Previous Day: <span id="previous-day">0</span></h3>
-      <h3>Start Amout: <span id="start-amount">913.90</span></h3>
-      <h3>Start DRM: <span id="start-drm">5.577715</span></h3>
+      <!-- section Previous header -->
+      <header class="section-header">
+        <h2>Remember: </h2>
+        <h3>Previous Day: <span id="previous-day">0</span></h3>
+        <h3>Start Amout: <span id="start-amount">913.90</span></h3>
+        <h3>Start DRM: <span id="start-drm">5.577715</span></h3>
+      </header>
 
-      <form>
+
+      <form class="section-form">
 
         <label for="day">Day:</label>
         <input type="number" id="day" name="day" />
@@ -53,13 +69,21 @@
 
       </form>
 
+      <!-- section results footer -->
+      <footer class="section-footer">
+        <h2>Results: </h2>
+        <h3>8 hourly Earning: <span id="hourly_earning">10.08</span></h3>
+        <h3>Daily Earning: <span id="daily-earnings">30.24</span></h3>
+      </footer>
 
 
-
-    </div>
+    </section>
 
 
     <!-- Satistics -->
+    <div class="statistic">
+      <h2>Statistics: </h2>
+    </div>
 
   </main>
 
